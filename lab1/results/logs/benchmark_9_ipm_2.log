@@ -1,0 +1,72 @@
+Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+LP has 135 rows; 270 cols; 9004 nonzeros
+Coefficient ranges:
+  Matrix  [5e-02, 1e+00]
+  Cost    [1e+00, 1e+01]
+  Bound   [5e+00, 1e+01]
+  RHS     [7e+01, 2e+02]
+Presolving model
+135 rows, 270 cols, 9004 nonzeros 0s
+135 rows, 270 cols, 9004 nonzeros 0s
+Presolve reductions: rows 135(-0); columns 270(-0); nonzeros 9004(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+IPX model has 135 rows, 270 columns and 9004 nonzeros
+Input
+    Number of variables:                                270
+    Number of free variables:                           0
+    Number of constraints:                              135
+    Number of equality constraints:                     0
+    Number of matrix entries:                           9004
+    Matrix range:                                       [5e-02, 1e+00]
+    RHS range:                                          [7e+01, 2e+02]
+    Objective range:                                    [1e+00, 1e+01]
+    Bounds range:                                       [5e+00, 1e+01]
+Preprocessing
+    Dualized model:                                     no
+    Number of dense columns:                            0
+    Range of scaling factors:                           [1.00e+00, 1.00e+00]
+    Scaled cost norm:                                   9.99024
+    Scaled bounds norm:                                 226.523
+IPX version 1.0
+Interior point solve
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   0   -6.23908599e+03  -3.06576185e+04   2.12e-01   8.04e-01  1.32e+00       0.0
+   1   -5.28436813e+03  -2.48143234e+04   3.35e-02   1.66e-01  1.30e+00       0.0
+   2   -5.43297894e+03  -1.52311458e+04   3.35e-08   1.34e-02  9.48e-01       0.0
+   3   -6.50198945e+03  -9.55732839e+03   1.01e-08   3.39e-03  3.80e-01       0.0
+   4   -7.13286314e+03  -8.35126210e+03   2.94e-09   1.04e-03  1.57e-01       0.0
+   5   -7.41331205e+03  -7.86073950e+03   2.42e-10   3.06e-04  5.86e-02       0.0
+   6   -7.47854503e+03  -7.60796670e+03   9.02e-11   6.50e-05  1.72e-02       0.0
+ Constructing starting basis...
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   7   -7.51010874e+03  -7.54813449e+03   2.00e-11   1.34e-05  5.05e-03       0.0
+   8   -7.52078115e+03  -7.53402267e+03   1.99e-12   4.99e-06  1.76e-03       0.0
+   9   -7.52278390e+03  -7.52577228e+03   4.41e-13   8.54e-07  3.97e-04       0.0
+  10   -7.52325902e+03  -7.52402821e+03   1.59e-13   7.15e-08  1.02e-04       0.0
+  11   -7.52362266e+03  -7.52368436e+03   9.18e-15   6.08e-09  8.20e-06       0.0
+  12   -7.52364832e+03  -7.52364850e+03   6.87e-16   3.71e-12  2.40e-08       0.0
+  13*  -7.52364847e+03  -7.52364847e+03   7.50e-16   6.47e-16  2.19e-14       0.0
+Running crossover as requested
+    Primal residual before push phase:                  4.13e-11
+    Dual residual before push phase:                    8.91e-13
+    Number of dual pushes required:                     0
+    Number of primal pushes required:                   0
+Summary
+    Runtime:                                            0.01s
+    Status interior point solve:                        optimal
+    Status crossover:                                   optimal
+    objective value:                                    -7.52364847e+03
+    interior solution primal residual (abs/rel):        1.42e-13 / 6.25e-16
+    interior solution dual residual (abs/rel):          7.11e-15 / 6.47e-16
+    interior solution objective gap (abs/rel):          1.65e-10 / 2.19e-14
+    basic solution primal infeasibility:                0.00e+00
+    basic solution dual infeasibility:                  0.00e+00
+Ipx: IPM       optimal
+Ipx: Crossover optimal
+
+Model status        : Optimal
+IPM       iterations: 13
+Objective value     : -7.5236484743e+03
+P-D objective error :  1.8131514248e-16
+HiGHS run time      :          0.01
