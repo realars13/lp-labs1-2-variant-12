@@ -1,0 +1,110 @@
+{
+  "base": {
+    "status": "Optimal",
+    "seconds": 0.0008163000002241461,
+    "objective": -1049.271676300578,
+    "x": [
+      0.0,
+      0.0,
+      27.0,
+      22.161849710982658,
+      19.942196531791907,
+      7.6589595375722554
+    ],
+    "row_dual": [
+      -0.8670520231213872,
+      -1.5260115606936417,
+      -0.19075144508670516,
+      -0.0
+    ],
+    "col_dual": [
+      3.196531791907516,
+      0.8901734104046248,
+      -0.5895953757225438,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "simplex_iterations": 3,
+    "ipm_iterations": 0,
+    "crossover_iterations": 0,
+    "nodes": null,
+    "mip_gap": null,
+    "dual_bound": null,
+    "variables": 6,
+    "constraints": 4,
+    "solve_phase_seconds": null
+  },
+  "deficit": {
+    "status": "Optimal",
+    "seconds": 0.00033820000044215703,
+    "objective": -899.8071065989848,
+    "x": [
+      0.0,
+      8.819289340101516,
+      27.0,
+      14.643654822335034,
+      17.916751269035537,
+      0.0
+    ],
+    "row_dual": [
+      -0.7563451776649748,
+      -1.6751269035532994,
+      -0.1116751269035533,
+      -0.0
+    ],
+    "col_dual": [
+      3.411167512690355,
+      0.0,
+      -0.45177664974619347,
+      0.0,
+      0.0,
+      0.7817258883248712
+    ],
+    "simplex_iterations": 3,
+    "ipm_iterations": 0,
+    "crossover_iterations": 0,
+    "nodes": null,
+    "mip_gap": null,
+    "dual_bound": null,
+    "variables": 6,
+    "constraints": 4,
+    "solve_phase_seconds": null
+  },
+  "stress": {
+    "status": "Optimal",
+    "seconds": 0.00037479999991774093,
+    "objective": -724.8901734104046,
+    "x": [
+      0.0,
+      11.060115606936414,
+      16.345664739884395,
+      0.0,
+      24.110982658959536,
+      0.0
+    ],
+    "row_dual": [
+      -0.6127167630057799,
+      -1.8265895953757227,
+      -0.15606936416185002,
+      -0.0
+    ],
+    "col_dual": [
+      3.8786127167630085,
+      0.0,
+      0.0,
+      1.0289017341040498,
+      0.0,
+      1.606936416184972
+    ],
+    "simplex_iterations": 6,
+    "ipm_iterations": 0,
+    "crossover_iterations": 0,
+    "nodes": null,
+    "mip_gap": null,
+    "dual_bound": null,
+    "variables": 6,
+    "constraints": 4,
+    "solve_phase_seconds": null
+  }
+}
